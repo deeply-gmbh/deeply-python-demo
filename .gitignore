@@ -1,6 +1,7 @@
 # deeply stuff
 *deeply.*
 model/
+license.txt
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

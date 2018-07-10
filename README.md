@@ -21,6 +21,18 @@ You also need to copy your license.txt (assuming stored in your home dir) to the
 cp ~/license.txt ~/deeply-python-demo
 ```
 
+### Mac OSX
+
+Due to the System Integrity Protection (SIP, https://en.wikipedia.org/wiki/System_Integrity_Protection) it is
+not allowed to have relative paths for linked shared libraries. To avoid the protection by the system please replace
+the relative path with an absolute path to the libdeeply.dylib:
+
+```
+cd ~/deeply-python-demo
+
+install_name_tool -change libdeeply.dylib $PWD/lib/libdeeply.dylib lib/_deeply.so
+```
+
 ## Run
 
 ### Main.py
