@@ -1,11 +1,3 @@
-import os
-import sys
-
-# Set the module path to find the deeply module in the dir "lib"
-sys.path.append( os.path.abspath( os.path.join( os.path.dirname( __file__ ), '../lib' ) ) )
-
-print( sys.path )
-
 from hamcrest import *
 from unittest import TestCase
 
