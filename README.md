@@ -9,10 +9,10 @@ See the straight-forward usage in less then 20 lines of code in Main.py and Cont
 ### deeply SDK
 
 First things first. After cloning this repo to your home dir (~/) you need to copy your deeply shared library,
-the pyhon wrapper shared library and the deeply.py to the lib directory:
+the pyhton wrapper shared library and the deeply.py to the lib directory:
 
 ```
-cp ~/deeply-python-{VERSION}/*deeply* ~/deeply-python-demo
+cp ~/deeply-python3-{VERSION}/*deeply* ~/deeply-python-demo
 ```
 
 You also need to copy your license.txt (assuming stored in your home dir) to the project root dir.
