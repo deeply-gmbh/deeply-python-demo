@@ -48,7 +48,11 @@ Or directly run it with from your command line
 ```
 cd ~/deeply-python-demo/
 
-python3 Main.py
+# Local webcam "-c"
+python3 Main.py -c
+
+# load a .mp4 video file
+python3 Main.py -v /path/to/video.mp4
 ```
 
 ### Unit Tests
